@@ -31,7 +31,7 @@ function User() {
     const submitHandler=(e)=>{
         dispatch(submitTask(name,task))
         setObj(prev=>([...prev,{
-            name:"do coding remote"
+            name:"do coding local"
         }]))
         e.preventDefault()
     }
