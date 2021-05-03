@@ -52,7 +52,7 @@ function User() {
             </form>
             {/* getting from state*/}            
             {array.map((object)=>{
-                return <h1>name: {object.name} task:{object.task}</h1>
+                return <h1>nam: {object.name} task:{object.task}</h1>
             })}            
         </div>
     )
